@@ -5,6 +5,19 @@
     <title>Colors_Lab</title>
 </head>
 
+<style>
+    /*playing with this*/
+    div{
+        height : 70px;
+        width : 130px;
+        background-color: greenyellow;
+        text-align: center;
+        margin: 20px;
+        padding: 30px;
+    }
+
+</style>
+
 <body>
 <!--Create a web page that lets the user generate random colors.-->
 <!--The user should be able to save the colors that they like.-->
@@ -12,11 +25,24 @@
 <!--The saved colors should be displayed in a table with two columns:-->
 <!--one column with the background color, and one column for the HEX value of that color.-->
 
-
     <!--create 2 buttons: to pick random color; to save prefered colors-->
     <button id="colorPicker"> Click here <em>to see</em> some colors! </button>
     <br><br>
-<button id="colorSaver"> Click here <em>to save</em> your colors. </button>
+    <button id="colorSaver"> Click here <em>to save</em> your colors. </button>
+    <br><br>
+
+
+<!--todo testing-->
+<button id="add_mouse_listeners">Add mouseover and mouseout listeners to the box below</button>
+<button id="add_click_listeners">Add click listener to the box below</button>
+
+        <div id="box">
+            <p id="mouse_status"></p>
+        </div>
+
+<button id="rem_click_listener">Remove click listeners box</button>
+<button id="rem_mouse_listeners">Remove mouse over/out listeners</button>
+<button id="rem_all_listeners">Remove all listeners</button>
 
 </body>
 </html>
